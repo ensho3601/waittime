@@ -4,9 +4,11 @@
     "11:30": {"wait": 25, "people": 14},
     "12:00": {"wait": 35, "people": 22}
   },
-  "tuesday": {
+  "saturday": {
     "11:00": {"wait": 15, "people": 8},
     "11:30": {"wait": 20, "people": 10},
-    "12:00": {"wait": 30, "people": 18}
+    "12:00": {"wait": 30, "people": 18},
+    "21:30": {"wait": 30, "people": 18},
+    "22:00": {"wait": 30, "people": 18}
   }
 }
