@@ -18,12 +18,11 @@
     const timeKey = `${hour}:${roundedMin}`;
 
     const info = data[weekday][timeKey];
-
     const waitDiv = document.getElementById("waittime");
 
     if(info){
       // 待ち時間による色分け
-      let color = "black"; // デフォルト
+      let color = "black";
       const wait = info.wait;
       if(wait === 0) color = "blue";
       else if(wait < 10) color = "green";
@@ -31,9 +30,26 @@
       else if(wait < 30) color = "red";
       else color = "purple";
 
-      // 太字 + 色付き表示
+      // CSS アニメーションを定義（点滅）
+      const styleId = "blink-style";
+      if(!document.getElementById(styleId)){
+        const style = document.createElement("style");
+        style.id = styleId;
+        style.textContent = `
+          @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0.2; }
+          }
+          .blink {
+            animation: blink 1s linear infinite;
+          }
+        `;
+        document.head.appendChild(style);
+      }
+
+      // 太字 + 色 + 点滅
       waitDiv.innerHTML = `${hour}時${minute}分現在　` +
-                          `<span style="font-weight:bold; color:${color}">` +
+                          `<span class="blink" style="font-weight:bold; color:${color}">` +
                           `行列約${info.people}人　待ち時間約${info.wait}分` +
                           `</span>`;
     } else {
