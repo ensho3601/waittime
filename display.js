@@ -41,7 +41,7 @@
             50%, 100% { opacity: 0.2; }
           }
           .blink {
-            animation: blink 3s linear infinite;
+            animation: blink 4s linear infinite;
           }
         `;
         document.head.appendChild(style);
