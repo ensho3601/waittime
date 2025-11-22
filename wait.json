@@ -1,5 +1,6 @@
 {
-  "monday": {
+  "sunday": {
+    "00:00": {"wait": 20, "people": 12},
     "11:00": {"wait": 20, "people": 12},
     "11:30": {"wait": 25, "people": 14},
     "12:00": {"wait": 35, "people": 22}
