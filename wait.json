@@ -1,0 +1,12 @@
+{
+  "monday": {
+    "11:00": {"wait": 20, "people": 12},
+    "11:30": {"wait": 25, "people": 14},
+    "12:00": {"wait": 35, "people": 22}
+  },
+  "tuesday": {
+    "11:00": {"wait": 15, "people": 8},
+    "11:30": {"wait": 20, "people": 10},
+    "12:00": {"wait": 30, "people": 18}
+  }
+}
