@@ -1,42 +1,40 @@
 (async function() {
+  // JSON の URL（GitHub Pages の URL を正確に指定）
+  const jsonUrl = "https://ensho3601.github.io/waittime/wait.json?ver=" + Date.now();
 
-  // JSON の URL（あなたのIDに置き換え）
-  const jsonUrl = "https://ensho3601.github.io/waittime/wait.json";
+  try {
+    // JSON を取得
+    const res = await fetch(jsonUrl);
+    if (!res.ok) throw new Error("データ取得失敗");
+    const data = await res.json();
 
-  const res = await fetch(jsonUrl);
-  const data = await res.json();
-  
-  const now = new Date();
-  const weekdayList = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
-  const weekday = weekdayList[now.getDay()];
+    // 現在時刻を取得
+    const now = new Date();
+    const weekdayNames = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+    const weekday = weekdayNames[now.getDay()];
 
-  // 時刻を11:00、11:30のように30分丸め
-  function roundTo30min(date) {
-    const h = date.getHours();
-    const m = date.getMinutes();
-    return (m < 30)
-      ? `${String(h).padStart(2,"0")}:00`
-      : `${String(h).padStart(2,"0")}:30`;
+    // 時刻を 30分単位に丸め
+    const hour = now.getHours().toString().padStart(2,"0");
+    const min = now.getMinutes();
+    const roundedMin = min < 30 ? "00" : "30";
+    const timeKey = `${hour}:${roundedMin}`;
+
+    // JSON から情報を取得
+    const info = data[weekday][timeKey];
+
+    // 表示用 div を取得
+    const waitDiv = document.getElementById("waittime");
+
+    // 表示
+    if(info){
+      waitDiv.textContent = `${hour}時${roundedMin}分現在　行列約${info.people}人　待ち時間約${info.wait}分`;
+    } else {
+      waitDiv.textContent = "現在の情報はありません";
+    }
+
+  } catch(err) {
+    console.error(err);
+    const waitDiv = document.getElementById("waittime");
+    waitDiv.textContent = "情報取得に失敗しました";
   }
-
-  const timeKey = roundTo30min(now);
-
-  const todayData = data[weekday];
-
-  if (!todayData || !todayData[timeKey]) {
-    document.getElementById("waittime").textContent = "データなし";
-    return;
-  }
-
-  const info = todayData[timeKey];
-
-  document.getElementById("waittime").textContent =
-    `待ち時間：約${info.wait}分`;
-
-  document.getElementById("people").textContent =
-    `行列：約${info.people}人`;
-
-  document.getElementById("timestamp").textContent =
-    `（${timeKey} 時点）`;
-
 })();
