@@ -21,39 +21,35 @@
     const waitDiv = document.getElementById("waittime");
 
     if(info){
+      // 待ち時間による色分け
+      let color = "black";
       const wait = info.wait;
-      let textColor = "black";
-      let bgColor = "transparent";
+      if(wait === 0) color = "blue";
+      else if(wait < 10) color = "green";
+      else if(wait < 20) color = "orange";
+      else if(wait < 30) color = "red";
+      else color = "purple";
 
-      // 待ち時間による色分け・背景色
-      if(wait === 0){ textColor="blue"; bgColor="#e0f0ff"; }
-      else if(wait < 10){ textColor="green"; bgColor="#e0ffe0"; }
-      else if(wait < 20){ textColor="orange"; bgColor="#fff0e0"; }
-      else if(wait < 30){ textColor="red"; bgColor="#ffe0e0"; }
-      else { textColor="purple"; bgColor="#f0e0ff"; }
-
-      // CSS アニメーション pulse 定義（1回だけ head に追加）
-      const styleId = "pulse-style";
+      // CSS アニメーションを定義（点滅）
+      const styleId = "blink-style";
       if(!document.getElementById(styleId)){
         const style = document.createElement("style");
         style.id = styleId;
         style.textContent = `
-          @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.2); }
-            100% { transform: scale(1); }
+          @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0.2; }
           }
-          .pulse {
-            display:inline-block;
-            animation: pulse 1s infinite;
+          .blink {
+            animation: blink 3s linear infinite;
           }
         `;
         document.head.appendChild(style);
       }
 
-      // 太字 + 背景 + pulse
+      // 太字 + 色 + 点滅
       waitDiv.innerHTML = `${hour}時${minute}分現在　` +
-                          `<span class="pulse" style="font-weight:bold; color:${textColor}; background-color:${bgColor}; padding:2px 6px; border-radius:4px;">` +
+                          `<span class="blink" style="font-weight:bold; color:${color}">` +
                           `行列約${info.people}人　待ち時間約${info.wait}分` +
                           `</span>`;
     } else {
