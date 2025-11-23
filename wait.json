@@ -433,6 +433,8 @@
       "20:00": {"wait": 12, "people": 4},
       "20:30": {"wait": 0, "people": 0}
     },
+     "wednesday": {
+    },
      "thursday": {
       "11:00": {"wait": 18, "people": 6},
       "11:30": {"wait": 30, "people": 10},
