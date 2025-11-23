@@ -2,8 +2,8 @@
   "sunday": {
     "00:00": {"wait": 20, "people": 12},
     "11:00": {"wait": 20, "people": 12},
-    "11:30": {"wait": 25, "people": 14},
-    "12:00": {"wait": 35, "people": 22}
+    "16:00": {"wait": 50, "people": 14},
+    "16:30": {"wait": 35, "people": 22}
   },
   "saturday": {
     "11:00": {"wait": 15, "people": 8},
