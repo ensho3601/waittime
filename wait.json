@@ -386,7 +386,7 @@
       "19:30": {"wait": 48, "people": 16},
       "20:00": {"wait": 24, "people": 8}
     }
-  }
+  },
     "chorin": {
      "sunday": {
       "11:00": {"wait": 60, "people": 20},
