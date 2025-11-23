@@ -1,19 +1,18 @@
 {
-  "sunday": {
-    "00:00": {"wait": 20, "people": 12},
-    "11:00": {"wait": 20, "people": 12},
-    "16:00": {"wait": 50, "people": 14},
-    "16:30": {"wait": 35, "people": 22},
-    "17:00": {"wait": 28, "people": 22},
-    "17:30": {"wait": 12, "people": 22}
+  "store1": {
+    "sunday": {
+      "11:00": {"wait": 20, "people": 12},
+      "17:30": {"wait": 20, "people": 12},
+      "18:00": {"wait": 20, "people": 12},
+      "18:30": {"wait": 20, "people": 12}
+    }
   },
-  "saturday": {
-    "11:00": {"wait": 15, "people": 8},
-    "11:30": {"wait": 20, "people": 10},
-    "12:00": {"wait": 30, "people": 18},
-    "21:30": {"wait": 25, "people": 17},
-    "22:00": {"wait": 25, "people": 17},
-    "22:30": {"wait": 22, "people": 15}, 
-    "23:00": {"wait": 15, "people": 15}
+  "store2": {
+    "sunday": {
+      "22:00": {"wait": 10, "people": 17},
+      "17:30": {"wait": 10, "people": 12},
+      "18:00": {"wait": 10, "people": 12},
+      "18:30": {"wait": 10, "people": 12}
+    }
   }
 }
