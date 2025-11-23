@@ -1,6 +1,6 @@
 (async function() {
 
-  // ▼あなたのGitHub PagesのURLに変更
+  // ▼あなたのGitHub PagesのURL
   const jsonUrl = "https://ensho3601.github.io/waittime/wait.json";
 
   const res = await fetch(jsonUrl);
@@ -10,7 +10,7 @@
   const weekdayList = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
   const weekday = weekdayList[now.getDay()];
 
-  // ▼30分丸め
+  // ▼データ参照は30分丸め（あなたの元データ仕様）
   function roundTo30min(date) {
     const h = date.getHours();
     const m = date.getMinutes();
@@ -31,26 +31,28 @@
 
   const info = todayData[timeKey];
 
-  // ▼色分けロジック
+  // ▼色分けロジック（あなたの元仕様）
   function getColor(wait) {
-    if (wait === 0) return "blue";                // 0分 → 青
-    if (wait < 10) return "green";                // 10分未満 → 緑
-    if (wait < 20) return "orange";               // 20分未満 → オレンジ
-    if (wait < 30) return "red";                  // 30分未満 → 赤
-    return "purple";                              // 30分以上 → 赤紫
+    if (wait === 0) return "blue";
+    if (wait < 10) return "green";
+    if (wait < 20) return "orange";
+    if (wait < 30) return "red";
+    return "purple";
   }
 
   const color = getColor(info.wait);
 
-  // ▼色 + 太字で表示
+  // ▼待ち時間と行列人数は色分けして太字
   document.getElementById("waittime").innerHTML =
     `<span style="color:${color}; font-weight:bold;">待ち時間：約${info.wait}分</span>`;
 
   document.getElementById("people").innerHTML =
     `<span style="color:${color}; font-weight:bold;">行列：約${info.people}人</span>`;
 
-  // ▼時刻表示（1分単位ではなく30分単位）
+  // ▼★ここを修正 — 1分単位で表示させる★
+  const h = String(now.getHours()).padStart(2, "0");
+  const m = String(now.getMinutes()).padStart(2, "0");
   document.getElementById("timestamp").textContent =
-    `（${timeKey} 時点）`;
+    `（${h}時${m}分 現在）`;
 
 })();
