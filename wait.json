@@ -6,7 +6,8 @@
       "18:00": {"wait": 50, "people": 14},
       "18:30": {"wait": 50, "people": 14},
       "19:00": {"wait": 50, "people": 14},
-      "19:30": {"wait": 35, "people": 22}
+      "19:30": {"wait": 35, "people": 22},
+      "20:00": {"wait": 0, "people": 22}
     },
     "saturday": {
       "11:00": {"wait": 15, "people": 8},
