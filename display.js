@@ -52,10 +52,10 @@
 
   if (document.getElementById("wt_people"))
     document.getElementById("wt_people").innerHTML =
-      `<span style="color:${color}; font-weight:bold;">並び：約${info.people}名</span>`;
+      `<span style="color:${color}; font-weight:bold;">約${info.people}名</span>`;
 
   if (document.getElementById("wt_wait"))
     document.getElementById("wt_wait").innerHTML =
-      `<span style="color:${color}; font-weight:bold;">待ち時間：約${info.wait}分</span>`;
+      `<span style="color:${color}; font-weight:bold;">約${info.wait}分待ち</span>`;
 
 })();
