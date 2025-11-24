@@ -3298,7 +3298,7 @@
       "19:30": {"wait": 5, "people": 2},
       "20:00": {"wait": 0, "people": 0},
       "20:30": {"wait": 12, "people": 5},
-      "21:00": {"wait": 0, "people": 0},
+      "21:00": {"wait": 0, "people": 0}
     }
   },
   "ziro-kameido": {
@@ -3423,7 +3423,7 @@
       "19:30": {"wait": 50, "people": 25},
       "20:00": {"wait": 40, "people": 20},
       "20:30": {"wait": 26, "people": 13},
-      "21:00": {"wait": 4, "people": 2},
+      "21:00": {"wait": 4, "people": 2}
     }
   }
  }
