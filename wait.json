@@ -2365,6 +2365,85 @@
       "23:00": {"wait": 0, "people": 0}
     }
   },
+  "ziro-shinagawa": {
+    "sunday": {
+    },
+     "monday": {
+      "10:00": {"wait": 5, "people": 2},
+      "10:30": {"wait": 24, "people": 10},  
+      "11:00": {"wait": 36, "people": 15},
+      "11:30": {"wait": 46, "people": 19},
+      "12:00": {"wait": 50, "people": 21},
+      "12:30": {"wait": 26, "people": 11},
+      "13:00": {"wait": 24, "people": 10},
+      "13:30": {"wait": 2, "people": 1},
+      "14:00": {"wait": 0, "people": 0}
+    },
+     "tuesday": {
+      "10:00": {"wait": 5, "people": 2},
+      "10:30": {"wait": 24, "people": 10},  
+      "11:00": {"wait": 36, "people": 15},
+      "11:30": {"wait": 46, "people": 19},
+      "12:00": {"wait": 50, "people": 21},
+      "12:30": {"wait": 26, "people": 11},
+      "13:00": {"wait": 24, "people": 10},
+      "13:30": {"wait": 2, "people": 1},
+      "14:00": {"wait": 0, "people": 0}
+    },
+     "wednesday": {
+      "10:00": {"wait": 5, "people": 2},
+      "10:30": {"wait": 24, "people": 10},  
+      "11:00": {"wait": 36, "people": 15},
+      "11:30": {"wait": 46, "people": 19},
+      "12:00": {"wait": 50, "people": 21},
+      "12:30": {"wait": 26, "people": 11},
+      "13:00": {"wait": 24, "people": 10},
+      "13:30": {"wait": 2, "people": 1},
+      "14:00": {"wait": 0, "people": 0}
+    },
+     "thursday": {
+      "10:00": {"wait": 5, "people": 2},
+      "10:30": {"wait": 24, "people": 10},  
+      "11:00": {"wait": 36, "people": 15},
+      "11:30": {"wait": 46, "people": 19},
+      "12:00": {"wait": 50, "people": 21},
+      "12:30": {"wait": 26, "people": 11},
+      "13:00": {"wait": 24, "people": 10},
+      "13:30": {"wait": 2, "people": 1},
+      "14:00": {"wait": 0, "people": 0}
+    },
+    "friday": {
+      "10:00": {"wait": 5, "people": 2},
+      "10:30": {"wait": 24, "people": 10},  
+      "11:00": {"wait": 36, "people": 15},
+      "11:30": {"wait": 46, "people": 19},
+      "12:00": {"wait": 50, "people": 21},
+      "12:30": {"wait": 26, "people": 11},
+      "13:00": {"wait": 24, "people": 10},
+      "13:30": {"wait": 2, "people": 1},
+      "14:00": {"wait": 0, "people": 0},
+      "17:00": {"wait": 0, "people": 0},
+      "17:30": {"wait": 29, "people": 12},  
+      "18:00": {"wait": 48, "people": 20},
+      "18:30": {"wait": 65, "people": 27},
+      "19:00": {"wait": 48, "people": 20},
+      "19:30": {"wait": 34, "people": 14},
+      "20:00": {"wait": 14, "people": 6},
+      "20:30": {"wait": 0, "people": 0},
+      "21:00": {"wait": 0, "people": 0}
+    },
+   "saturday": {
+      "10:00": {"wait": 5, "people": 2},
+      "10:30": {"wait": 7, "people": 3},  
+      "11:00": {"wait": 10, "people": 4},
+      "11:30": {"wait": 24, "people": 10},
+      "12:00": {"wait": 19, "people": 8},
+      "12:30": {"wait": 12, "people": 5},
+      "13:00": {"wait": 7, "people": 3},
+      "13:30": {"wait": 2, "people": 1},
+      "14:00": {"wait": 0, "people": 0}
+    }
+  },
   "ziro-shonanfujisawa": {
     "sunday": {
       "11:00": {"wait": 63, "people": 30},
