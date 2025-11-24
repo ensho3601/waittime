@@ -2743,5 +2743,61 @@
     },
    "saturday": {
     }
+  },
+  "ziro-koiwa": {
+    "sunday": {
+    },
+     "monday": {
+    },
+     "tuesday": {
+      "10:30": {"wait": 53, "people": 19},
+      "11:00": {"wait": 39, "people": 14},
+      "11:30": {"wait": 25, "people": 9},
+      "12:00": {"wait": 28, "people": 10},
+      "12:30": {"wait": 22, "people": 8},
+      "13:00": {"wait": 36, "people": 13},
+      "13:30": {"wait": 39, "people": 14},
+      "14:00": {"wait": 34, "people": 12},
+      "14:30": {"wait": 25, "people": 9},
+      "15:00": {"wait": 0, "people": 0}
+    },
+     "wednesday": {
+      "10:30": {"wait": 53, "people": 19},
+      "11:00": {"wait": 39, "people": 14},
+      "11:30": {"wait": 25, "people": 9},
+      "12:00": {"wait": 28, "people": 10},
+      "12:30": {"wait": 22, "people": 8},
+      "13:00": {"wait": 36, "people": 13},
+      "13:30": {"wait": 39, "people": 14},
+      "14:00": {"wait": 34, "people": 12},
+      "14:30": {"wait": 25, "people": 9},
+      "15:00": {"wait": 0, "people": 0}
+    },
+     "thursday": {
+      "10:30": {"wait": 53, "people": 19},
+      "11:00": {"wait": 39, "people": 14},
+      "11:30": {"wait": 25, "people": 9},
+      "12:00": {"wait": 28, "people": 10},
+      "12:30": {"wait": 22, "people": 8},
+      "13:00": {"wait": 36, "people": 13},
+      "13:30": {"wait": 39, "people": 14},
+      "14:00": {"wait": 34, "people": 12},
+      "14:30": {"wait": 25, "people": 9},
+      "15:00": {"wait": 0, "people": 0}
+    },
+    "friday": {
+      "10:30": {"wait": 53, "people": 19},
+      "11:00": {"wait": 39, "people": 14},
+      "11:30": {"wait": 25, "people": 9},
+      "12:00": {"wait": 28, "people": 10},
+      "12:30": {"wait": 22, "people": 8},
+      "13:00": {"wait": 36, "people": 13},
+      "13:30": {"wait": 39, "people": 14},
+      "14:00": {"wait": 34, "people": 12},
+      "14:30": {"wait": 25, "people": 9},
+      "15:00": {"wait": 0, "people": 0}
+    },
+   "saturday": {
+    }
   }
  }
