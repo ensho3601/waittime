@@ -4735,7 +4735,7 @@
       "22:00": {"wait": 31, "people": 12},
       "22:30": {"wait": 10, "people": 4},
       "23:00": {"wait": 18, "people": 7},
-      "23:30": {"wait": 0, "people": 0}
+      "23:30": {"wait": 13, "people": 5}
     },
      "wednesday": {
       "00:00": {"wait": 0, "people": 0},
@@ -4750,7 +4750,7 @@
       "22:00": {"wait": 31, "people": 12},
       "22:30": {"wait": 10, "people": 4},
       "23:00": {"wait": 18, "people": 7},
-      "23:30": {"wait": 0, "people": 0}
+      "23:30": {"wait": 13, "people": 5}
     },
      "thursday": {
       "00:00": {"wait": 0, "people": 0},
@@ -4765,7 +4765,7 @@
       "22:00": {"wait": 31, "people": 12},
       "22:30": {"wait": 10, "people": 4},
       "23:00": {"wait": 18, "people": 7},
-      "23:30": {"wait": 0, "people": 0}
+      "23:30": {"wait": 13, "people": 5}
     },
     "friday": {
       "00:00": {"wait": 0, "people": 0},
@@ -4780,7 +4780,7 @@
       "22:00": {"wait": 31, "people": 12},
       "22:30": {"wait": 10, "people": 4},
       "23:00": {"wait": 18, "people": 7},
-      "23:30": {"wait": 0, "people": 0}
+      "23:30": {"wait": 13, "people": 5}
     },
    "saturday": {
       "00:00": {"wait": 0, "people": 0},
