@@ -7386,5 +7386,76 @@
       "20:00": {"wait": 38, "people": 21},
       "20:30": {"wait": 13, "people": 7}
     }
+  },
+  "hatsune": {
+    "sunday": {
+    },
+     "monday": {
+    },
+     "tuesday": {
+      "11:00": {"wait": 25, "people": 6},
+      "11:30": {"wait": 16, "people": 4},
+      "12:00": {"wait": 16, "people": 4},
+      "12:30": {"wait": 16, "people": 4},
+      "13:00": {"wait": 21, "people": 5},
+      "13:30": {"wait": 21, "people": 5},
+      "14:00": {"wait": 21, "people": 5},
+      "14:30": {"wait": 21, "people": 5},
+      "15:00": {"wait": 8, "people": 2},
+      "15:30": {"wait": 4, "people": 1},
+      "16:00": {"wait": 4, "people": 1}
+    },
+     "wednesday": {
+      "11:00": {"wait": 25, "people": 6},
+      "11:30": {"wait": 16, "people": 4},
+      "12:00": {"wait": 16, "people": 4},
+      "12:30": {"wait": 16, "people": 4},
+      "13:00": {"wait": 21, "people": 5},
+      "13:30": {"wait": 21, "people": 5},
+      "14:00": {"wait": 21, "people": 5},
+      "14:30": {"wait": 21, "people": 5},
+      "15:00": {"wait": 8, "people": 2},
+      "15:30": {"wait": 4, "people": 1},
+      "16:00": {"wait": 4, "people": 1}
+    },
+     "thursday": {
+      "11:00": {"wait": 25, "people": 6},
+      "11:30": {"wait": 16, "people": 4},
+      "12:00": {"wait": 16, "people": 4},
+      "12:30": {"wait": 16, "people": 4},
+      "13:00": {"wait": 21, "people": 5},
+      "13:30": {"wait": 21, "people": 5},
+      "14:00": {"wait": 21, "people": 5},
+      "14:30": {"wait": 21, "people": 5},
+      "15:00": {"wait": 8, "people": 2},
+      "15:30": {"wait": 4, "people": 1},
+      "16:00": {"wait": 4, "people": 1}
+    },
+    "friday": {
+      "11:00": {"wait": 25, "people": 6},
+      "11:30": {"wait": 16, "people": 4},
+      "12:00": {"wait": 16, "people": 4},
+      "12:30": {"wait": 16, "people": 4},
+      "13:00": {"wait": 21, "people": 5},
+      "13:30": {"wait": 21, "people": 5},
+      "14:00": {"wait": 21, "people": 5},
+      "14:30": {"wait": 21, "people": 5},
+      "15:00": {"wait": 8, "people": 2},
+      "15:30": {"wait": 4, "people": 1},
+      "16:00": {"wait": 4, "people": 1}
+    },
+   "saturday": {
+      "11:00": {"wait": 41, "people": 10},
+      "11:30": {"wait": 33, "people": 8},
+      "12:00": {"wait": 37, "people": 9},
+      "12:30": {"wait": 33, "people": 8},
+      "13:00": {"wait": 29, "people": 7},
+      "13:30": {"wait": 25, "people": 6},
+      "14:00": {"wait": 21, "people": 5},
+      "14:30": {"wait": 16, "people": 4},
+      "15:00": {"wait": 12, "people": 3},
+      "15:30": {"wait": 12, "people": 3},
+      "16:00": {"wait": 0, "people": 0}
+    }
   }
  }
