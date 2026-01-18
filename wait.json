@@ -12519,5 +12519,51 @@
       "23:00": {"wait": 0, "people": 0},
       "23:30": {"wait": 0, "people": 0}
     }
-  } 
+  },
+  "sansanto": {
+    "sunday": {
+      "18:00": {"wait": 18, "people": 8},
+      "18:30": {"wait": 16, "people": 7},
+      "19:00": {"wait": 7, "people": 3},
+      "19:30": {"wait": 9, "people": 4},
+      "20:00": {"wait": 14, "people": 6},
+      "20:30": {"wait": 5, "people": 2}
+    },
+     "monday": {
+    },
+     "tuesday": {
+      "18:00": {"wait": 9, "people": 4},
+      "18:30": {"wait": 9, "people": 4},
+      "19:00": {"wait": 9, "people": 4},
+      "19:30": {"wait": 7, "people": 3},
+      "20:00": {"wait": 7, "people": 3},
+      "20:30": {"wait": 5, "people": 2}
+    },
+     "wednesday": {
+      "18:00": {"wait": 9, "people": 4},
+      "18:30": {"wait": 9, "people": 4},
+      "19:00": {"wait": 9, "people": 4},
+      "19:30": {"wait": 7, "people": 3},
+      "20:00": {"wait": 7, "people": 3},
+      "20:30": {"wait": 5, "people": 2}
+    },
+     "thursday": {     
+    },
+    "friday": {
+      "18:00": {"wait": 9, "people": 4},
+      "18:30": {"wait": 9, "people": 4},
+      "19:00": {"wait": 9, "people": 4},
+      "19:30": {"wait": 7, "people": 3},
+      "20:00": {"wait": 7, "people": 3},
+      "20:30": {"wait": 5, "people": 2}
+    },
+   "saturday": {
+      "18:00": {"wait": 18, "people": 8},
+      "18:30": {"wait": 16, "people": 7},
+      "19:00": {"wait": 7, "people": 3},
+      "19:30": {"wait": 9, "people": 4},
+      "20:00": {"wait": 14, "people": 6},
+      "20:30": {"wait": 5, "people": 2}
+    }
+  }
  }
