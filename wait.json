@@ -13441,5 +13441,63 @@
       "14:00": {"wait": 0, "people": 0},
       "14:30": {"wait": 0, "people": 0}
     }
+  },
+  "kenchanramen": {
+    "sunday": {
+      "11:00": {"wait": 20, "people": 15},
+      "11:30": {"wait": 33, "people": 25},
+      "12:00": {"wait": 46, "people": 35},
+      "12:30": {"wait": 43, "people": 33},
+      "13:00": {"wait": 40, "people": 31},
+      "13:30": {"wait": 38, "people": 29},
+      "14:00": {"wait": 29, "people": 22}
+    },
+     "monday": {
+    },
+     "tuesday": {
+      "11:00": {"wait": 25, "people": 19},
+      "11:30": {"wait": 22, "people": 17},
+      "12:00": {"wait": 29, "people": 22},
+      "12:30": {"wait": 33, "people": 25},
+      "13:00": {"wait": 25, "people": 19},
+      "13:30": {"wait": 22, "people": 17},
+      "14:00": {"wait": 8, "people": 6}
+    },
+     "wednesday": {
+      "11:00": {"wait": 25, "people": 19},
+      "11:30": {"wait": 22, "people": 17},
+      "12:00": {"wait": 29, "people": 22},
+      "12:30": {"wait": 33, "people": 25},
+      "13:00": {"wait": 25, "people": 19},
+      "13:30": {"wait": 22, "people": 17},
+      "14:00": {"wait": 8, "people": 6}
+    },
+     "thursday": {  
+      "11:00": {"wait": 25, "people": 19},
+      "11:30": {"wait": 22, "people": 17},
+      "12:00": {"wait": 29, "people": 22},
+      "12:30": {"wait": 33, "people": 25},
+      "13:00": {"wait": 25, "people": 19},
+      "13:30": {"wait": 22, "people": 17},
+      "14:00": {"wait": 8, "people": 6}
+    },
+    "friday": {
+      "11:00": {"wait": 25, "people": 19},
+      "11:30": {"wait": 22, "people": 17},
+      "12:00": {"wait": 29, "people": 22},
+      "12:30": {"wait": 33, "people": 25},
+      "13:00": {"wait": 25, "people": 19},
+      "13:30": {"wait": 22, "people": 17},
+      "14:00": {"wait": 8, "people": 6}
+    },
+   "saturday": {
+      "11:00": {"wait": 20, "people": 15},
+      "11:30": {"wait": 33, "people": 25},
+      "12:00": {"wait": 46, "people": 35},
+      "12:30": {"wait": 43, "people": 33},
+      "13:00": {"wait": 40, "people": 31},
+      "13:30": {"wait": 38, "people": 29},
+      "14:00": {"wait": 29, "people": 22}
+    }
   }
  }
