@@ -7885,7 +7885,7 @@
       "15:00": {"wait": 9, "people": 5}
     }
   },
-  "suzukiya": {
+  "suzuki": {
     "sunday": {
       "00:00": {"wait": 7, "people": 3},
       "00:30": {"wait": 0, "people": 0},
