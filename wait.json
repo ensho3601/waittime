@@ -16845,5 +16845,51 @@
       "21:30": {"wait": 2, "people": 2},
       "22:00": {"wait": 0, "people": 0}
     }
+  },
+  "suzakishokuryohinten": {
+    "sunday": {
+      "09:00": {"wait": 65, "people": 72},
+      "09:30": {"wait": 64, "people": 71},
+      "10:00": {"wait": 48, "people": 53},
+      "10:30": {"wait": 59, "people": 66},
+      "11:00": {"wait": 35, "people": 39},
+      "11:30": {"wait": 0, "people": 0}
+    },
+     "monday": { 
+      "09:00": {"wait": 26, "people": 29},
+      "09:30": {"wait": 16, "people": 18},
+      "10:00": {"wait": 5, "people": 5},
+      "10:30": {"wait": 11, "people": 12},
+      "11:00": {"wait": 14, "people": 15},
+      "11:30": {"wait": 3, "people": 3}
+    },
+     "tuesday": {  
+    },
+     "wednesday": {
+    },
+     "thursday": { 
+      "09:00": {"wait": 26, "people": 29},
+      "09:30": {"wait": 16, "people": 18},
+      "10:00": {"wait": 5, "people": 5},
+      "10:30": {"wait": 11, "people": 12},
+      "11:00": {"wait": 14, "people": 15},
+      "11:30": {"wait": 3, "people": 3}
+    },
+    "friday": {
+      "09:00": {"wait": 26, "people": 29},
+      "09:30": {"wait": 16, "people": 18},
+      "10:00": {"wait": 5, "people": 5},
+      "10:30": {"wait": 11, "people": 12},
+      "11:00": {"wait": 14, "people": 15},
+      "11:30": {"wait": 3, "people": 3}
+    },
+   "saturday": {
+      "09:00": {"wait": 65, "people": 72},
+      "09:30": {"wait": 64, "people": 71},
+      "10:00": {"wait": 48, "people": 53},
+      "10:30": {"wait": 59, "people": 66},
+      "11:00": {"wait": 35, "people": 39},
+      "11:30": {"wait": 0, "people": 0}
+    }
   }
  }
