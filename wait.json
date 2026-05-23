@@ -17664,7 +17664,7 @@
       "04:30": {"wait": 0, "people": 0},
       "05:00": {"wait": 0, "people": 0},
       "05:30": {"wait": 0, "people": 0},
-      "06:00": {"wait": 0, "people": 0},
+      "06:00": {"wait": 0, "people": 0}
     },
      "wednesday": {
       "11:00": {"wait": 32, "people": 12},
